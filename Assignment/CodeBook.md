@@ -29,8 +29,8 @@
   11. Calculates the averages of features for each activity and each subject from the resulted dataset
   12. writes the averages results in average_data.txt
  
- ### Description of data on  merged_data_set.txt
- - columns 1 to 66 are the features related to mean and std values:
+ ### Description of data on  merged_data_set.txt 
+- columns 1 to 66 are the features related to mean and std values:
     - Time domain body acceleration mean along X, Y, and Z:
       - "tBodyAcc-mean()-X"           
       - "tBodyAcc-mean()-Y"           
