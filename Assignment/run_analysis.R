@@ -134,4 +134,4 @@ library(plyr)
 averageData <- ddply(finalSet, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 # Writing the dataset in a file
-write.table(finalSet, "./data/average_data.txt")
+write.table(finalSet, "./data/average_data.txt", row.names = FALSE)
