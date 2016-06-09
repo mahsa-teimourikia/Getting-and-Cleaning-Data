@@ -99,13 +99,13 @@
       - "fBodyAcc-std()-Y"           
       - "fBodyAcc-std()-Z"  
     - Frequency domain body jerk mean along X, Y, and Z: 
-    - "fBodyAccJerk-mean()-X"       
-    - "fBodyAccJerk-mean()-Y"      
-    - "fBodyAccJerk-mean()-Z"      
+      - "fBodyAccJerk-mean()-X"       
+      - "fBodyAccJerk-mean()-Y"      
+      - "fBodyAccJerk-mean()-Z"      
     - Frequency domain body jerk standard deviation along X, Y, and Z: 
-    - "fBodyAccJerk-std()-X"       
-    - "fBodyAccJerk-std()-Y"       
-    - "fBodyAccJerk-std()-Z"  
+      - "fBodyAccJerk-std()-X"       
+      - "fBodyAccJerk-std()-Y"       
+      - "fBodyAccJerk-std()-Z"  
     - Frequency domain gyroscope mean along X, Y, and Z: 
       - "fBodyGyro-mean()-X"          
       - "fBodyGyro-mean()-Y"         
@@ -131,7 +131,14 @@
     - Frequency domain gyroscope jerk magnitude standard deviation: 
       - "fBodyBodyGyroJerkMag-std()" 
  - column 67 is the activity data
+      - activity 
  - column 68 includes the subject ids
+      - subject 
 
 ### Description of the average_data.txt
--
+- column 1 is the subject ids
+      - subject
+- column 2 the the activities
+      - activity
+-  columns 3 to 68 are the averages of features related to mean and std values of each activity and each subject
+      -  description of the columns can be found above
