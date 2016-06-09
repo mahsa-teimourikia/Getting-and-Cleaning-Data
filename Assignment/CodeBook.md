@@ -3,6 +3,7 @@
 - X_test and X_train datasets include the test and train feature data 
 - y_test and y_train datasets include activity lables for the collected feature data
 - subject_test and subject_train data sets include subject ids for the gathered data
+
 ### Other used files:
 - features.txt includes feature names for the data that are included in X-test and X_train data sets
 - activity_labels.txt includes the activity names:
