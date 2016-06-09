@@ -125,3 +125,13 @@ write.table(finalSet, "./data/merged_data_set.txt")
 #### for each activity and each subject.                                             ####
 #########################################################################################
 
+# Installing and using plyr library
+install.packages("plyr")
+library(plyr)
+
+# Using ddply to get the means of variables for each subject and each activity
+# Variables can be found in columns 1 to 66
+averageData <- ddply(finalSet, .(subject, activity), function(x) colMeans(x[, 1:66]))
+
+# Writing the dataset in a file
+write.table(finalSet, "./data/average_data.txt")
