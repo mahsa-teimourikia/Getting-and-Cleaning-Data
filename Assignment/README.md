@@ -24,3 +24,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  - data/merged_data_set.txt including the the cleaned and merged dataset
  - data/average_data.txt including tidy data with the average of each variable for each activity and each subject
  - CodeBook.md includes descriptions on the provided datasets
+
+## Notes to use the codes
+- for using the codes provided it suffices to run run_analysis.R and relevant data should be downloaded automatically into the working directory
+- The outputs of run_analysis.R are two text files "merged_data_set.txt" and "average_data.txt" that will be saved in a folder called data in the working directory
